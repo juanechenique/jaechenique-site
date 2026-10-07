@@ -34,7 +34,7 @@ Edit a `.qmd` file on github.com (pencil icon), commit, and the site republishes
 | A paper (published or working) | `publications.yml` → copy an entry and edit it (see below) |
 | Policy brief / media | `policy-media.qmd` |
 | Courses | `teaching.qmd` |
-| New CV | Replace the file in Google Drive (same link) or `files/Echenique_CV.pdf` |
+| New CV | Replace `files/Echenique_CV.pdf` with the new PDF (keep the same file name) |
 | Menu items | `_quarto.yml` |
 
 ## Preview locally (optional)

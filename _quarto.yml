@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - files/Echenique_CV.pdf
 
 website:
   title: "Juan A. Echenique"
@@ -21,7 +23,7 @@ website:
       - text: "Teaching"
         href: teaching.qmd
       - text: "CV"
-        href: https://drive.google.com/file/d/16d36quPtcE-mAS0jMwn7nxEBuEnWST9F/view
+        href: files/Echenique_CV.pdf
       - text: "Contact"
         href: contact.qmd
   page-footer:
@@ -38,5 +40,5 @@ format:
     link-external-newwindow: true
     include-after-body:
       text: |
-        <script>document.querySelectorAll('a[href^="https://drive.google.com"]').forEach(function(a){a.target="_blank";a.rel="noopener";});</script>
+        <script>document.querySelectorAll('a[href$="Echenique_CV.pdf"]').forEach(function(a){a.target="_blank";a.rel="noopener";});</script>
     email-obfuscation: javascript

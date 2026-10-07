@@ -23,7 +23,7 @@ I am currently an assistant professor at the School of Public Health at UC-Chile
 
 ::: {.btn-row}
 [Research](research.qmd){.solid}
-[CV](https://drive.google.com/file/d/16d36quPtcE-mAS0jMwn7nxEBuEnWST9F/view){target="_blank" rel="noopener"}
+[CV](files/Echenique_CV.pdf){target="_blank" rel="noopener"}
 [Contact](contact.qmd)
 :::
 
