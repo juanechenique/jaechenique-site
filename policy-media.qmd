@@ -1,0 +1,33 @@
+---
+title: "Policy & Media"
+---
+
+Policy briefs, reports and media coverage of my work.
+
+## Policy Briefs and Reports {.section-title}
+
+::: {.pub}
+Andres, L. A., Briceno, B., Chase, C., & **Echenique, J. A.** (2015). *India: How many toilets does it take to improve health?* From Evidence to Policy, Brief 96568. The World Bank. [Link](http://documents.worldbank.org/curated/en/117401467993163079/India-how-many-toilets-does-it-take-to-improve-health)
+:::
+
+::: {.pub}
+**Echenique, J. A.**, & Urzúa, S. (2013). *Desigualdad, Segregación y Resultados Educacionales: Evidencia desde el Metro de Santiago*. Puntos de Referencia, 359. Centro de Estudios Públicos. [PDF](https://static.cepchile.cl/uploads/cepchile/2022/09/pder359_SUrzua-JEchenique.pdf)
+:::
+
+::: {.pub}
+**Echenique, J. A.**, & Urzúa, S. S. (2012). *Pobreza y Desigualdad: ¿Dónde estamos? ¿Hacia dónde vamos?* Puntos de Referencia, 353. Centro de Estudios Públicos. [PDF](https://static.cepchile.cl/uploads/cepchile/2022/09/pder353_JAEchenique-SUrzua.pdf)
+:::
+
+## In the Media {.section-title}
+
+::: {.pub}
+Featured by *Revista Qué Pasa* (2013): [Un viaje desigual](http://www.quepasa.cl/articulo/actualidad/2013/06/1-11935-9-%20un-viaje-desigual.shtml)
+:::
+
+<!--
+To add new items, copy one of the blocks above and edit it:
+
+::: {.pub}
+Citation or headline here. [Link](https://...)
+:::
+-->

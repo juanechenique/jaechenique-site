@@ -1,0 +1,28 @@
+---
+title: "Teaching"
+---
+
+**Teaching interests:** Health economics; program and policy evaluation; applied econometrics and causal inference; quantitative methods for health services research; microeconomics for health and social policy.
+
+## Teaching Experience {.section-title}
+
+### Pontificia Universidad Católica de Chile {.area}
+*Santiago, Chile*
+
+::: {.pub}
+**Instructor** · Management of Healthcare Organizations (*Gestión en Organizaciones de Salud*), Undergraduate <span class="tag">2026</span>
+:::
+
+### Universidad del Desarrollo {.area}
+*Santiago, Chile*
+
+::: {.pub}
+**Instructor** · Principles of Microeconomics, Undergraduate <span class="tag">2021</span>
+:::
+
+### University of Maryland – College Park {.area}
+*College Park, MD, USA*
+
+::: {.pub}
+**Instructor** · Macroeconomics for Public Policy, Graduate <span class="tag">2017–2018</span>
+:::

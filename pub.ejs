@@ -1,0 +1,34 @@
+<div class="list pub-list">
+<%
+// Note: raw-HTML output tag is used below, so text fields are escaped by hand with esc().
+const esc = (s) => String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const boldMe = (s) => esc(s).replace(/(Echenique, J\.(?: A\.)?|J\. A\. Echenique)/g, "<strong>$1</strong>");
+const paragraphs = (s) => (s || "").split(/\n\s*\n/).map(p => "<p>" + esc(p.trim().replace(/\n/g, " ")) + "</p>").join("");
+let lastArea = null;
+%>
+<% for (const item of items) { %>
+<% if (item.type === 'working' && item.area && item.area !== lastArea) { lastArea = item.area; %>
+<h3 class="area"><%= esc(item.area) %></h3>
+<% } %>
+<% const link = item.url ? '<a href="' + esc(item.url) + '">' + esc(item.url_text || "Link") + '</a>' : ""; %>
+<% const tag = item.status ? '<span class="tag">' + esc(item.status) + '</span>' : ""; %>
+<% if (item.type === 'working') { %>
+<% const extra = [item.note ? esc(item.note) : "", link].filter(Boolean).join(" · "); %>
+<% const who = [item.authors ? boldMe(item.authors) : "", extra].filter(Boolean).join(" · "); %>
+<div class="listing-item paper" <%= metadataAttrs(item) %>>
+<span class="title"><%= esc(item.title) %></span><%= tag %>
+<% if (who) { %>
+<div class="coauthors"><%= who %></div>
+<% } %>
+<% if (item.abstract) { %>
+<details><summary>Abstract</summary><%= paragraphs(item.abstract) %></details>
+<% } %>
+</div>
+<% } else { %>
+<% const doi = item.doi ? ' <a href="https://doi.org/' + esc(item.doi) + '">doi:' + esc(item.doi) + '</a>' : ""; %>
+<div class="listing-item pub" <%= metadataAttrs(item) %>>
+<%= boldMe(item.authors) %><%= item.year ? " (" + esc(item.year) + ")" : "" %>. <%= esc(item.title) %>. <span class="venue"><%= esc(item.venue) %></span>. <%= tag %><%= doi %><%= item.url ? " " + link : "" %>
+</div>
+<% } %>
+<% } %>
+</div>

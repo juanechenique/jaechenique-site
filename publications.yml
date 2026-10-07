@@ -1,0 +1,116 @@
+# Publications database for research.qmd
+# To add a paper: copy an entry, edit it, save. The site rebuilds itself.
+#
+# type:     published | working
+# area:     (working papers only) heading the paper is grouped under
+# status:   optional tag (Forthcoming, Submitted, In preparation, ...)
+# doi:      published articles: DOI only, e.g. 10.1016/j.xxxx
+# url:      optional extra link (SSRN, PDF, ...), url_text = its label
+# abstract: optional; blank lines separate paragraphs. Shown in an expandable box.
+# Keep entries in the order you want them displayed.
+
+- type: published
+  title: Impact of Sweetened Beverages Taxes on Beverage Calories Purchased in a National Fast Food Restaurant Chain
+  authors: Rummo, P., Echenique, J., Wu, H., Desai, S., Mijanovich, T., Bragg, M., Weitzman, B., & Elbel, B.
+  venue: PLOS Medicine
+  status: Forthcoming
+- type: published
+  title: Trends in mental health-related pediatric emergency visits among New York City students
+  authors: Echenique, J., Schwartz, A. E., Konty, K., Day, S., Baroni, A., Stein, C. R., Argenio, K., & Elbel, B.
+  venue: The American Journal of Emergency Medicine
+  year: 2025
+  doi: 10.1016/j.ajem.2025.07.045
+- type: published
+  title: 'Estimating the impacts of calorie labels in fast-food settings using a novel comparison: Comparing California drive-through and in-store purchases'
+  authors: Weitzman, B. C., Heng, L., Mijanovich, T., Abrams, C., Rummo, P. E., Bragg, M. A., Wu, E., Hafeez, E., Cassidy, O., Echenique, J. A., & Elbel, B.
+  venue: Appetite, 107864
+  year: 2025
+  doi: 10.1016/j.appet.2025.107864
+- type: published
+  title: An Econometric Analysis of Sea Surface Temperatures, Sea Ice Concentrations and Ocean Surface Current Velocities
+  authors: Bhargava, A., & Echenique, J. A.
+  venue: Journal of Marine Science and Engineering, 10(12), 1854
+  year: 2022
+  doi: 10.3390/jmse10121854
+- type: published
+  title: Geo-spatial modeling of access to water and sanitation in Nigeria
+  authors: Ajisegiri, B., Andres, L. A., Bhatt, S., Dasgupta, B., Echenique, J. A., Gething, P. W., Zabludovsky, J. G., & Joseph, G.
+  venue: Journal of Water, Sanitation and Hygiene for Development, 9(2), 258–280
+  year: 2019
+  doi: 10.2166/washdev.2019.089
+- type: published
+  title: 'Sanitation and externalities: Evidence from early childhood health in rural India'
+  authors: Andrés, L., Briceño, B., Chase, C., & Echenique, J. A.
+  venue: Journal of Water, Sanitation and Hygiene for Development, 7(2), 272–289
+  year: 2017
+  doi: 10.2166/washdev.2017.143
+- type: working
+  area: Mental Health
+  title: School Instructional Choices and Mental Health Outcomes Post-Lockdown
+  authors: with Amy Ellen Schwartz and B. Elbel
+  abstract: 'This paper focuses on understanding how modes of instruction (fully remote vs. hybrid in-person and remote) affected New York City (NYC) students during the reopening of schools after instruction shifted to remote during the spring semester of 2019-20 as a response to the COVID-19 pandemic. Parents/guardians were offered the option of students returning to classes in a blended learning mode (hybrid) or fully remote instruction. The paper contributes to understanding the long-term implications of COVID-19 restrictions and the role of instruction modalities as determinants for children''s mental health status and academic achievement. We use a recently established unique longitudinal dataset of individual-level data on all NYC K-12 public school children, combining healthcare usage and educational administrative records. We leverage two sources of variation: the choices of parents for the mode of instruction and the staggered reopening of schools based on the student''s grade. First, we estimate the parents'' preferences for blended learning for the 2020-2021 school year based on demographic characteristics, physical and mental health status, neighborhood infection rates, school infrastructure, and travel time to school. Then, we estimate the effects of attending in person on multiple indicators of mental health status (ED visits, outpatient care, and prescription drugs). Finally, we estimate the impact on students'' outcomes (disciplinary actions, absenteeism, academic achievement, and mental health diagnoses) during the 2021-2022 school year when schools completed their reopening. Preliminary results show that female middle and high school students attending in person, conditional on the choice to return to school in hybrid mode, have a lower probability of an emergency department visit related to mental health than students in remote instruction.'
+- type: working
+  area: Mental Health
+  title: The Effect of State Training Requirements on School-Based Suicide Prevention
+  authors: with Anna Strassmann Mueller, Kim Bryan, and Coady Wing
+  abstract: |-
+    Between 2001 and 2023, 38 states have passed laws that set requirements for suicide prevention training among public school staff. These regulations vary across states regarding the type, quality, and length of training required and the financial support available for implementing the training requirements. Suicide prevention gatekeeper training is arguably one of the best strategies we have to improve youth suicide prevention, but understanding when and how it works to benefit youth is critical.
+
+    We present a novel dataset tracking the implementation and requirements of suicide prevention training state-level policies. This allows us to discuss the details of the policies across states, offering some insight into the actual stringency of the reforms and the potential these reforms have for suicide prevention. Based on this dataset, we study its impact on multiple outcomes related to the suicide behavior of youth affected by leveraging the staggered rollout across the states between the period of the study to implement an event-study design. Specifically, we implement our design with the estimator proposed by Callaway and Sant'Anna (2021), allowing us to explore the possible heterogeneity in the effects of suicide prevention training.
+
+    The first outcome of our interest is the state-level youth (5-19 years) suicide rates from the National Center for Health Statistics 1999–2021 multiple cause-of-death mortality files. Our first set of results found no significant overall treatment effect and limited positive returns between 1 and 3 decreases in the rate per 100,000 for states that enacted policies earlier in this period. Additionally, we estimate the effects of policies, which, based on the length of the training and its evidence-based content, could be qualified as high-quality policies, with results consistent overall with the broader definition of treatment. Nevertheless, the results by year of implementation show some variation in the states showing positive effects based on the definition used as a high-quality policy. Moreover, our identification strategy shows no impact on the state-level suicide rate for people 45-59.
+- type: working
+  area: Mental Health
+  title: Access and Equity of School-Based Mental Health in NYC Public Schools
+  authors: with M. Mitsdarffer, B. Elbel, and A. E. Schwartz
+  abstract: |-
+    Over the last decade, school-based mental health (SBMH) resources in New York City (NYC) public schools, including Article 31 and 28 clinics, staff training, and counselors, have expanded to address students' growing mental health needs. This study examines the distribution and impact of these resources amid an emerging youth mental health crisis, exacerbated by the COVID-19 pandemic, during which mental health-related emergency department (ED) visits surged. Using administrative data from NYC public schools and Medicaid claims, we analyze two critical questions: (1) Which students are most likely to access SBMH resources? and (2) Is access to these resources associated with reduced mental health-related ED visits during the pandemic?
+
+    To address the first question, we use a regression model to estimate the probability that a school offers SBMH services, incorporating predictors such as the demographic composition of students, school characteristics (e.g., grade span, co-location), and infrastructure indicators. For the second question, we examine the relationship between SBMH service access and ED visits, hypothesizing that greater pre-pandemic resource access correlates with lower ED visits and that disparities in access exacerbate mental health outcome disparities. Our population of interest includes 6th–12th grade students enrolled in NYC public schools (excluding special education and specialized schools) from 2019 to 2022. By integrating data on SBMH service availability, student demographics, and health outcomes, this study aims to illuminate disparities in SBMH access and inform equitable mental health policy interventions for youth.
+
+    Our results show that schools serving Hispanic/Latino students have a 1.4 percentage point higher probability of offering SBMH services for every 10 percent increase in that student population, compared to schools serving a larger proportion of Black students, with even larger differences observed in comparison to schools serving White and Asian students. Additionally, we observe that high schools have a higher probability of receiving SBMH services. However, recent findings in the literature indicate the need to expand these services to schools serving sixth to eighth-grade students to prevent severe outcomes later.
+- type: working
+  area: Addiction Health Services
+  title: Provider perspectives among high- and low-retention outpatient substance use disorder treatment programs in New York State
+  authors: S. Bruening, A. Fawole, M. Melkonian, J. Alexandre, A. Tang, J. A. Echenique, S. Choi, A. E. Jordan, T. D'Aunno, P. Lincourt, C. Neighbors
+  status: In preparation
+- type: working
+  area: Addiction Health Services
+  title: Substance Use Disorder Treatment Engagement Among Transition-Aged Adults Aged 18–25 Years in New York State
+  authors: V. Drury, J. Aleksanyan, N. Narayanan, J. A. Echenique, D. Renteria, A. Fawole, S. Kawola, J. Del Rosario, P. Lincourt, M. Morris, C. Neighbors, C. O. Cunningham, A. E. Jordan
+  status: Submitted
+- type: working
+  area: Food Policy and Nutrition
+  title: 'Front-of-package food labeling policies and child nutrition: Lessons from Chile''s comprehensive food policy reform'
+  authors: with Agustina Laurito
+  note: Draft upon request
+  abstract: In 2022, the prevalence of children under the age of five classified as overweight or obese was 8.6% (UNICEF, WHO, World Bank 2023). This condition does not only affect other aspects of a child's health in the short run but increases their risk of chronic illnesses such as diabetes and hypertension in the long run. In recent years, food labeling policies have gained popularity as a public health intervention to tackle obesity in the general population. Front-of-package policies are one such policy that has been proposed to help consumers make informed food choices. Food packages often display simple information on the front indicating whether a product is healthy or unhealthy if the amount of sugar and fat exceeds specific ranges. The first version of this policy was implemented in Chile in 2016 and later implemented in 25 countries worldwide (Barahona et al., 2022). Previous research regarding this experience has found a reduction in calorie and sugar intake by 6% and 9%, respectively, via the reformulation of products and substitution within the category (Barahona, Otero, and Otero, 2023). This paper studies the effects of the first mandatory front-of-package policy on children's weight trajectories using two data sources. First, we will test for short-run changes in nutritional status in children, exploiting the level of exposure to the policy across multiple rounds of the Early Childhood Longitudinal Survey (ELPI). Then, we examine the changes in the nutritional status of school-aged children, for which the policy also introduced restrictions to the sales of products labeled as high-in-fat or high-in-sugars within the schools. We use the Nutritional Maps Survey collected by the National Board of School Assistance and Scholarships (JUNAEB), which collects anthropometric measurements for pre-k, kindergarten, first-grade, and high-school first-year children. Using a fixed-effects model, we test for changes in the proportion of children with malnutrition by excess at the school level during the years preceding the law's enactment.
+- type: working
+  area: Food Policy and Nutrition
+  title: Supply Pricing Responses to Sugar-Sweetened Beverage Taxes at a Large National Fast-Food Chain
+  authors: with B. Elbel, H. Wu, S. Desai, P. Rummo, T. Mijanovich, M. Bragg, and B. Weitzman
+  status: Submitted
+  url: https://papers.ssrn.com/sol3/Delivery.cfm/4961670.pdf?abstractid=4961670&mirid=1
+  url_text: SSRN
+  abstract: Over one-third of adults consume fast food daily, including sugar-sweetened beverages (SSBs) that contain more than the recommended daily allowance of calories from added sugars in just one serving. Taxes on sweetened beverages are a promising solution to reduce the consumption of these beverages and their potential contribution to obesity. However, policies must satisfy two conditions to affect the demand for these products. Firstly, the tax must be passed on from producers to consumers through higher prices. Secondly, the demand for these items should be less than perfectly inelastic. This paper focuses on the first condition, examining the pass-through of taxes on sweetened beverages in fast-food beverage prices in five US localities that implemented taxes between 2017-2018. The study leverages detailed national purchase data from Taco Bell locations between 2015 and 2020. Using an event-study design combined with a synthetic control counterfactual, we tested for price changes per ounce of single-served beverages and beverages bundles with menu items. The results showed that the amount of tax passed through to consumers varied by locality during the first two years post-tax. We find evidence of a complete pass-through on single-served beverages in cities taxing sugar and artificially sweetened beverages (Philadelphia, PA, and Cook County, IL). Conversely, we find no significant price changes in locations that taxed only sugar-sweetened beverages (Seattle, WA, Albany, CA, and Oakland, CA). The restaurant responses remained consistent into the second year post-tax in the four locations that retained the tax. These findings underscore the significance of tax design.
+- type: working
+  area: Food Policy and Nutrition
+  title: Relationship between community characteristics and impact of sugar-sweetened beverage taxes on fast-food purchases
+  authors: R. Dupuis, M. Bragg, E. Wu, L. Heng, E. Hafeez, T. Mijanovich, B. Weitzman, J. A. Echenique, P. Rummo, B. Elbel
+  status: In preparation
+- type: working
+  area: Early Childhood Interventions
+  title: 'Comprehensive Early Childhood Development Support Systems and Academic Achievement: The Case of Chile Crece Contigo'
+  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5058558
+  url_text: SSRN
+  abstract: |-
+    This paper studies the effects of a comprehensive early childhood support system on human capital accumulation. Specifically, we explore differences in educational achievement of the first generations of children exposed to the comprehensive child development support system "Chile Crece Contigo." To study this, we exploit the gradual implementation of the policy and the age eligibility requirements to estimate the returns of availability of the policy on data from seven cohorts (2012-2018) of fourth-grade students in Chile. We find sizable positive effects in mathematics (0.21 of a standard deviation) and language (0.23 of a standard deviation) test scores for children in municipalities that started the program during or before their prenatal stage compared to children that the program began when they were older than sixty months. Estimates from an event-study design show that the exposure returns dissipated for children thirty-six months old or older when the policy started. This result is consistent with the schedule of interventions and early detection instruments established. When we look at the difference in the returns to exposure across gender and socioeconomic status, we find evidence that (i) comprehensive child support system has higher returns on boys, which could be explained partially by differences in access to need-based services, (ii) these differences across gender differences occur in children with higher levels of exposure, and (iii) we do not find relevant differences between students classified as low-socioeconomic background and not classified in this category.
+
+    Keywords: Chile Crece Contigo, long-term return, early childhood interventions.
+- type: working
+  area: Early Childhood Interventions
+  title: 'Take-Up Rates and Intervention Effectiveness of Early Childhood Stimulation Services: Insights from Chile Crece Contigo'
+  abstract: |-
+    In this paper, I study a novel service offered by Chile Crece Contigo: the stimulation workshops. This service consists of workshops for children and their parents designed to foster the learning process of children lagging in their development based on age-based psychomotor benchmarks. Using electronic health records from families receiving primary care in the public health system in an urban district in Santiago, Chile, I characterize the population eligible for these services and study the factors related to the probability of take-up for the services offered. Based on observable characteristics and baseline evaluations, it is possible to observe that parents of children in the lower part of the distribution of psychomotor development choose to participate in the treatment, indicating positive sorting into the treatment.
+
+    Then, conditional on selection into treatment, I test if the treatment can meet its target of closing the gap in human capital formation between children who received help to enhance their development trajectory and those who followed the usual path of development. For this, I use the total score of the screening test at follow-up as the outcome of interest and a categorical variable indicating whether the child achieves their developmental milestone at follow-up. Our results show that children who comply with the referral for services show improvement. However, these gains do not close the gap from the baseline period to comply with developmental benchmarks. This result, combined with the sorting of participants, provides an explanation for the limited results from aggregated indicators used by policymakers.

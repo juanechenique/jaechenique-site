@@ -1,0 +1,37 @@
+---
+title: "Juan A. Echenique"
+page-layout: full
+title-block-banner: false
+pagetitle: "Juan A. Echenique · Health Economist"
+---
+
+```{=html}
+<style>#title-block-header { display: none; }</style>
+```
+
+::::: {.hero}
+<img class="portrait" src="images/profile.jpg" alt="Juan A. Echenique">
+
+::: {}
+<div class="greeting">¡Hola!</div>
+
+# Juan A. Echenique
+
+My research focuses on understanding how the organization of the health system and the social environment shape the health trajectories of children and adolescents. Using tools from health economics, policy evaluation, and health services research, combined with econometric methods, I aim to inform public policy debates and the design of interventions that improve timely and appropriate access to care.
+
+I am currently an assistant professor at the School of Public Health at UC-Chile. I hold a Ph.D. in Policy Studies and an M.A. in Economics from the University of Maryland, College Park.
+
+::: {.btn-row}
+[Research](research.qmd){.solid}
+[CV](cv.qmd)
+[Contact](contact.qmd)
+:::
+
+::: {.social}
+[<i class="bi bi-mortarboard" title="Google Scholar"></i>](https://scholar.google.cl/citations?user=xAgmFI0AAAAJ&hl=es){aria-label="Google Scholar"}
+[<i class="bi bi-person-badge" title="ORCID"></i>](https://orcid.org/0000-0002-9029-8845){aria-label="ORCID"}
+[<i class="bi bi-linkedin" title="LinkedIn"></i>](https://www.linkedin.com/in/juan-a-echenique-3b332315/){aria-label="LinkedIn"}
+[<i class="bi bi-twitter-x" title="X / Twitter"></i>](https://twitter.com/jaechenique){aria-label="X / Twitter"}
+:::
+:::
+:::::

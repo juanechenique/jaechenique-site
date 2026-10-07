@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Juan A. Echenique"
+  description: "Health economist. Assistant Professor, School of Public Health, Pontificia Universidad Católica de Chile."
+  site-url: https://www.jaechenique.com
+  favicon: images/favicon.png
+  navbar:
+    background: light
+    pinned: true
+    title: "Juan A. Echenique"
+    right:
+      - text: "About"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Policy & Media"
+        href: policy-media.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "Contact"
+        href: contact.qmd
+  page-footer:
+    center: "© 2026 Juan A. Echenique · Built with [Quarto](https://quarto.org)"
+  open-graph: true
+
+format:
+  html:
+    theme:
+      light: [default, styles.scss]
+      dark: [darkly, styles.scss]
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    email-obfuscation: javascript

@@ -1,0 +1,39 @@
+---
+title: "Research"
+listing:
+  - id: published
+    contents: publications.yml
+    type: custom
+    template: pub.ejs
+    include:
+      type: published
+    sort: false
+    page-size: 100
+  - id: working
+    contents: publications.yml
+    type: custom
+    template: pub.ejs
+    include:
+      type: working
+    sort: false
+    page-size: 100
+---
+
+My work can be organized into two complementary approaches:
+
+1. Identifying gaps and inequalities in access to healthcare, and
+2. Studying the role of system regulation and the impact of public policies.
+
+Although I have worked in other areas of health economics, my recent and future research focuses on mental health and substance use disorders.
+
+## Published Articles {.section-title}
+
+::: {#published}
+:::
+
+## Working Papers and Work in Progress {.section-title}
+
+::: {#working}
+:::
+
+<!-- Papers live in publications.yml: add or edit entries there, not here. -->
