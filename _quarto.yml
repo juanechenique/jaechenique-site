@@ -21,7 +21,7 @@ website:
       - text: "Teaching"
         href: teaching.qmd
       - text: "CV"
-        href: cv.qmd
+        href: https://drive.google.com/file/d/16d36quPtcE-mAS0jMwn7nxEBuEnWST9F/view
       - text: "Contact"
         href: contact.qmd
   page-footer:
@@ -36,4 +36,7 @@ format:
     toc: false
     smooth-scroll: true
     link-external-newwindow: true
+    include-after-body:
+      text: |
+        <script>document.querySelectorAll('a[href^="https://drive.google.com"]').forEach(function(a){a.target="_blank";a.rel="noopener";});</script>
     email-obfuscation: javascript

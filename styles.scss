@@ -67,12 +67,17 @@ main.content { max-width: 920px; margin-left: auto; margin-right: auto; }
 
 /* ---------- Research cards ---------- */
 .pub, .paper {
-  padding: 0.9rem 1.1rem;
-  margin: 0.7rem 0;
-  border-left: 3px solid var(--bs-primary);
-  background: var(--bs-tertiary-bg);
-  border-radius: 0 8px 8px 0;
+  position: relative;
+  padding: 0 0 0 1.2rem;
+  margin: 0.75rem 0;
   line-height: 1.55;
+}
+.pub::before, .paper::before {
+  content: "\2022";
+  position: absolute;
+  left: 0.15rem;
+  color: var(--bs-primary);
+  font-weight: 700;
 }
 .pub .venue { font-style: italic; }
 .pub .tag, .paper .tag {

@@ -1,19 +1,9 @@
 ---
-title: "Curriculum Vitae"
-page-layout: full
+title: "CV"
+format:
+  html:
+    include-in-header:
+      text: '<meta http-equiv="refresh" content="0; url=https://drive.google.com/file/d/16d36quPtcE-mAS0jMwn7nxEBuEnWST9F/view">'
 ---
 
-::: {.btn-row}
-[<i class="bi bi-download"></i> Download PDF](https://drive.google.com/uc?export=download&id=16d36quPtcE-mAS0jMwn7nxEBuEnWST9F){.solid}
-[<i class="bi bi-box-arrow-up-right"></i> Open in new tab](https://drive.google.com/file/d/16d36quPtcE-mAS0jMwn7nxEBuEnWST9F/view)
-:::
-
-<!--
-This embeds the CV from Google Drive, so when you replace the file in Drive
-(same file, "Manage versions"), the website updates automatically.
-
-To host the PDF in this repo instead, put it in files/Echenique_CV.pdf and use:
-<iframe class="embed-frame" src="files/Echenique_CV.pdf"></iframe>
--->
-
-<iframe class="embed-frame" src="https://drive.google.com/file/d/16d36quPtcE-mAS0jMwn7nxEBuEnWST9F/preview" title="Curriculum Vitae of Juan A. Echenique" allow="autoplay"></iframe>
+Opening my CV… If nothing happens, [click here](https://drive.google.com/file/d/16d36quPtcE-mAS0jMwn7nxEBuEnWST9F/view).
